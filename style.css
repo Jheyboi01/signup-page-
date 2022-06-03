@@ -1,0 +1,73 @@
+body {
+    font-size: 20px;
+    color: #fff;
+}
+
+.container{
+  width: 50%;
+  margin: 0 auto;
+}
+
+form{
+  margin-top: 30px;
+  margin-bottom: 150px;
+  padding: 75px;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.1)), url('/images/pexels-efrem-efre-6326936.jpg') bottom;
+  color: #fff;
+}
+
+label{
+  margin-bottom: 10px;
+}
+
+legend{
+  background: #fff;
+  padding: 5px 25px;
+  border: none;
+  border-radius: 50px;
+  outline: #fff;
+  margin-bottom: 10px;
+  font-style: italic;
+  color: #000;
+}
+fieldset{
+padding:0 30px 30px;
+background: rgba(231, 231, 231, 0.22);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(1.3px);
+-webkit-backdrop-filter: blur(1.3px);
+border: 1px solid rgba(231, 231, 231, 0.06);
+}
+
+.context{
+  font-size: 15px;
+  font-style: italic;
+}
+input{
+  padding: 5px;
+  display: block;
+  width: 95%;
+  height: 30px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background: transparent;
+  color: #fff;
+  
+}
+
+input::placeholder{
+  color: #fff;
+}
+
+button{
+  border: none;
+  border-radius: 20px;
+  padding: 5px;
+  width: 50%;
+  font-size: 20px;
+  color: #000;
+  background: #17e67b;
+  outline: none;
+}
